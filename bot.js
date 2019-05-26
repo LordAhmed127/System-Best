@@ -3530,7 +3530,7 @@ return channel.send("")
     }
     )});
 	client.on('message', msg => {
-  if (msg.content === '${prefix}help') {
+  if (msg.content === '+help') {
     msg.reply('تم ارسال الاوامر فى الخاص');
   }
 });
